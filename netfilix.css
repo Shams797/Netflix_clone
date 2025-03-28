@@ -1,0 +1,378 @@
+@import url('https://fonts.cdnfonts.com/css/netflix-font'); 
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap'); */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    background-image:url("/Users/khusnawazhasan/Documents/Codeing/project/03_netflix/image/netlixBackground.jpg");
+    height: 70vh;
+    width: 100%;
+    /* background-size: max(1000px, 100vw); */
+    background-size:cover;
+    /* background-repeat:no-repeat; */
+    /* background-position: center center ; */
+    position: relative;
+}
+
+.nav{
+    /* background-color:red; */
+    display:flex;
+    width:60vw;
+    height: 62px;
+    align-items:center;
+    margin:auto;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+    z-index: 1;
+    /* padding:0px 23px; */
+    top:20px;
+    /* border:solid 1px red; */
+}
+
+.button{
+    display:flex;
+    align-items:center;
+
+
+}
+.lan{
+    display:flex;
+    border:1px solid white;
+    background-color: black;
+    border-radius:5px;
+    align-items: center;
+    padding:10px;
+    
+}
+.icon{
+    /* background-color:black; */
+    color:white;
+    border-radius:5px;
+    text-align: center;
+}
+.button1{
+    background-color:black;
+    color:white;
+    border:none;
+    /* border-radius: 5px; */
+
+}
+
+#button2{
+    background-color:red;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    margin-left:7px;
+}
+
+img{
+   width:200px;
+}
+
+.box{
+    background-color:black;
+    opacity: 0.6;
+    height: 70vh;
+    width: 100%;
+    position:absolute;
+    top:0px;
+    /* border:2px solid red; */
+
+}
+
+.hero{
+    height: calc(100% - 63px);
+    /* height: 500px; */
+    color:white;
+    position: relative;
+    z-index:1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:30px;
+    padding: 0px 20px;
+    /* border:1px solid red; */
+}
+
+.hero> :first-child{
+    font-family: 'Netflix Font', sans-serif;
+    /* font-family: "Playwrite IN", serif; */
+    /* text-align:center;                                       */
+    font-weight:900;
+    font-size:38px; 
+
+}
+
+.hero> :nth-child(2){
+    font-size: 24px;
+    /* text-align: center; */
+    font-weight: 400;
+}
+
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+
+#email{
+    padding:16px;
+    background-color:black;
+    color:white;
+    opacity:0.8;
+    border:none;
+    border-radius: 5px;
+    border:1px solid white;
+}
+
+#submit{
+    background-color:red;
+    color:white;
+    padding:16px;
+    border:none;
+    border-radius:5px;
+}
+
+.line{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(60, 58, 58);
+    /* position: absolute; */
+    /* border:solid 1px red; */
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width:72vw;
+    height: 40vh;
+    margin:auto;
+    margin-top:10px;
+    /* border:solid 1px red; */
+    color:white
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column; 
+}
+
+section.first > div :first-child{
+    font-size:2rem;
+}
+section.first> div :nth-child(2){
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+
+.secimg img{
+    /* border:solid 1px red; */
+    height:210px;
+    width: 380px;
+    position: relative;
+    z-index:2;
+}
+
+.secimg video{
+    /* border:solid 4px red; */
+    position:absolute;
+    height: 170px;
+    width:380px;
+    bottom: 0.5px;
+}
+/*  */
+
+.sec img{
+    width:280px;
+    height: 300px;
+    margin-left:60px;
+}
+.sectext{
+    margin-right:30px;
+}
+
+/*  */
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+    width:72vw;
+    height: 40vh;
+    color:white;
+    
+}
+
+section.third > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.third> div :first-child{
+    font-size:2rem;
+    /* opacity: 0.7; */
+}
+
+section.third > div :nth-child(2){
+    font-size:1.2rem;
+    margin-top:10px;
+    /* opacity: 0.7; */
+}
+
+.thiimg img{
+    /* border:solid 1px red; */
+    position: relative;
+    height: 210px;
+    width: 380px;
+    z-index: 2;
+
+}
+
+.thiimg video{
+    position:absolute;
+    height: 150px;
+    width:360px;
+
+}
+/*  */
+
+.forimg img{
+    margin-right:80px;
+    height: 270px;
+    width: 350px;
+}
+
+.fortext{
+    margin-left:60px;
+    /* opacity: 0.8; */
+}
+
+@media screen and (max-width:905px) {
+    body{
+        background-color: red;
+    }
+    .forth{
+        flex-wrap:wrap;
+
+    }
+    
+}
+
+.fsq{
+    color:white;
+    text-align:center;
+}
+
+h2{
+    margin:30px 0px 20px 0px;
+    font-size:2rem;
+}
+.box1{
+    /* border:solid 1px red; */
+    background-color:#2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin:auto;
+    padding:15px;
+    font-size:1.2rem; 
+    margin-top:8px;
+    cursor:pointer;
+}
+
+.box1:hover{
+    transition: all 0.70s ease-out;
+    background-color: rgb(67,66,66);
+}
+
+.info{
+    color:white;
+    text-align: center;
+    margin-top:30px;
+
+}
+
+.info > span{
+    /* border: solid 1px red; */
+    font-size:1.4rem;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+#ema{
+    border:none;
+    border: solid 1px white;
+    color:white;
+    background-color: black;
+    padding:16px;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+}
+
+#sub{
+    background-color:red;
+    color:white;
+    padding:16px;
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+footer{
+    color:white;
+    max-width: 70vw;
+    margin:auto;
+    padding-top:40px;
+
+}
+
+
+.footer{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
+
+.nav-bottom{
+    border:solid 1px white;
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    margin:30px 0px 30px 0px;
+
+}
+.but{
+    /* margin:30px 0px 30px 0px; */
+    background-color: black;
+    color:white;
+    /* height: 33px; */
+    border:none;
+}
